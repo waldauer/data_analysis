@@ -20,10 +20,10 @@ function [w,p] = fftFreqAxis(t,varargin)
 % nyquist dt_ny = 5 fs, so undersampling n=1 means dt = (2*1+1)*5 =15 fs,
 % n=2 => 25 fs etc
 
-global c q h
-% c = 2.9979e10;
-% q = 1.6e-19;
-% h = 6.626e-34;
+% global c q h
+c = 2.9979e10;
+q = 1.6e-19;
+h = 6.626e-34;
 
 %old defaults
 %time_units = 'unitless'
